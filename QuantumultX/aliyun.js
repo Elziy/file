@@ -661,7 +661,8 @@ class UserInfo {
                     //若设备无可领取奖励，执行上传任务
                     if (!deviceItem.canCollectEnergy) {
                         let count = 2;
-                        if (e.deviceModel == 'ipad Air') {
+                        if (e.deviceModel == 'iPad Air' || e.deviceId == '42e66c92661cca51fb97bde80f5e4e55115706bc1020774ddeb2335274c5d712') {
+                            $.log(`iPad Air: 上传10次空文件`);
                             count = 10;
                         }
                         //每个设备上传两次空文件
