@@ -650,10 +650,10 @@ class UserInfo {
             //debug(deviceList);
             $.log(`⏰ 开始执行时光设备间备份任务\n`);
             let {rewardCountToday, rewardTotalSize} = await this.getDeviceRoomInfo();
-            // if (rewardCountToday >= 5) {
-            //     DoubleLog(`时光间: 总共领取${rewardTotalSize}MB,今日领取次数：${rewardCountToday}`);
-            //     return $.log(`今日时光间领取奖励已达到上限，跳过任务\n`)
-            // }
+            if (rewardCountToday >= 5) {
+                DoubleLog(`时光间: 总共领取${rewardTotalSize}MB,今日领取次数：${rewardCountToday}`);
+                return $.log(`今日时光间领取奖励已达到上限，跳过任务\n`)
+            }
             for (let e of deviceList) {
                 $.log(`设备: ${e.deviceModel} => ${e.deviceId} => ${e.canCollectEnergy ? '可领取奖励' : '无可领取奖励'}`)
                 if (items) {
