@@ -660,8 +660,12 @@ class UserInfo {
                     let deviceItem = items.find(u => u.id == e.deviceId) ?? [];
                     //若设备无可领取奖励，执行上传任务
                     if (!deviceItem.canCollectEnergy) {
+                        let count = 2;
+                        if (e.deviceModel == 'ipad Air') {
+                            count = 10;
+                        }
                         //每个设备上传两次空文件
-                        for (let i = 1; i <= 2; i++) {
+                        for (let i = 1; i <= count; i++) {
                             await this.uploadFileToAlbums(this.albumsId, e.deviceId, e.deviceModel);
                             $.log(`${e.deviceModel} 完成第${i}次上传任务`);
                         }
