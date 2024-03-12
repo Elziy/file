@@ -1090,6 +1090,7 @@ function debug(text, title = 'debug') {
 
 //检查变量
 async function checkEnv() {
+    console.log(userCookie)
     if ((Array.isArray(userCookie)) && userCookie.length == 0) {
         console.log("未找到CK");
         return;
