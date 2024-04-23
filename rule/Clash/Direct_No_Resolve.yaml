@@ -1,0 +1,12 @@
+# NAME: Direct
+# AUTHOR: zsheep
+# TYPE: CLASSICAL
+# UPDATE: 2024-04-23 21:48:34
+# TOTAL: 6
+payload:
+  - DOMAIN-SUFFIX,ess.apple.com
+  - DOMAIN-SUFFIX,time.apple.com
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,iosapps.itunes.apple.com
+  - DOMAIN-SUFFIX,jihujiasuqi.com
+  - DOMAIN-SUFFIX,steamcontent.com

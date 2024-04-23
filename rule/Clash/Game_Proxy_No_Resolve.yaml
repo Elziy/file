@@ -1,0 +1,14 @@
+# NAME: Game_Proxy
+# AUTHOR: zsheep
+# TYPE: CLASSICAL
+# UPDATE: 2024-04-23 21:50:41
+# TOTAL: 4
+payload:
+  - DOMAIN-SUFFIX,sgameglobal.com
+  #PUBG MOBILE
+  #- DOMAIN,asia.csoversea.mbgame.anticheatexpert.com
+  #- DOMAIN,cloud.gsdk.proximabeta.com
+  - DOMAIN-SUFFIX,igamecj.com
+  #PUBG
+  - DOMAIN-SUFFIX,playbattlegrounds.com
+  - DOMAIN-SUFFIX,pubg.com
