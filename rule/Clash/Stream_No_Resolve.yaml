@@ -1,0 +1,8 @@
+# NAME: Stream
+# AUTHOR: zsheep
+# TYPE: CLASSICAL
+# UPDATE: 2024-05-10 18:50:41
+# TOTAL: 2
+payload:
+  - GEOSITE,tiktok
+  - GEOSITE,youtube
