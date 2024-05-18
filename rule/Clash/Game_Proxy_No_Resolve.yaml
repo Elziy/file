@@ -5,8 +5,10 @@
 # TOTAL: 4
 payload:
   - DOMAIN-SUFFIX,sgameglobal.com
+  #AOV
   - DOMAIN-SUFFIX,iegcom.com
   - DOMAIN-SUFFIX,intlgame.com
+  - DOMAIN-SUFFIX,proximabeta.com
   #PUBG MOBILE
   #- DOMAIN,asia.csoversea.mbgame.anticheatexpert.com
   #- DOMAIN,cloud.gsdk.proximabeta.com
