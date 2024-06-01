@@ -10,5 +10,7 @@ payload:
   - DOMAIN-SUFFIX,iosapps.itunes.apple.com
   - DOMAIN-SUFFIX,jihujiasuqi.com
   - DOMAIN-SUFFIX,steamcontent.com
-#  - ipv4.egdownload.fastly-edge.com
   - DOMAIN-SUFFIX,fastly-edge.com
+  - DOMAIN-SUFFIX,mask.icloud.com
+  - DOMAIN-SUFFIX,mask-h2.icloud.com
+  - DOMAIN-SUFFIX,mask.apple-dns.net
