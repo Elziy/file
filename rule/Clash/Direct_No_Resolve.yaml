@@ -14,3 +14,4 @@ payload:
   - DOMAIN-SUFFIX,mask.icloud.com
   - DOMAIN-SUFFIX,mask-h2.icloud.com
   - DOMAIN-SUFFIX,mask.apple-dns.net
+  - DOMAIN-SUFFIX,epicgamescdn.com
