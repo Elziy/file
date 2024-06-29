@@ -1,0 +1,12 @@
+# NAME: Chipper
+# AUTHOR: zsheep
+# TYPE: CLASSICAL
+# UPDATE: 2024-06-29 15:48:34
+# TOTAL: 6
+payload:
+  - DOMAIN-SUFFIX,chippercash.com
+  - DOMAIN-SUFFIX,sprig.com
+  - DOMAIN-SUFFIX,intercom.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,bugsnag.com
+  - DOMAIN-SUFFIX,sentry.io
