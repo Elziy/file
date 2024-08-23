@@ -17,8 +17,7 @@
         "epicgamescdn.com",
         "download-cdn.jetbrains.com",
         "downloads.marketplace.jetbrains.com"
-      ],
-      "ip_is_private": true
+      ]
     }
   ]
 }
