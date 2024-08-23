@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "ess.apple.com",
+        "time.apple.com",
+        "push.apple.com",
+        "iosapps.itunes.apple.com",
+        "jihujiasuqi.com",
+        "steamcontent.com",
+        "fastly-edge.com",
+        "mask.icloud.com",
+        "mask-h2.icloud.com",
+        "mask.apple-dns.net",
+        "swcbg.com",
+        "epicgamescdn.com",
+        "download-cdn.jetbrains.com",
+        "downloads.marketplace.jetbrains.com"
+      ],
+      "ip_is_private": true
+    }
+  ]
+}

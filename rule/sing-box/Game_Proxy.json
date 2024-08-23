@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [],
+      "domain_suffix": [
+        "sgameglobal.com",
+        "iegcom.com",
+        "intlgame.com",
+        "proximabeta.com",
+        "igamecj.com",
+        "playbattlegrounds.com",
+        "pubg.com"
+      ],
+      "domain_keyword": [],
+      "domain_regex": [],
+      "ip_cidr": []
+    }
+  ]
+}
